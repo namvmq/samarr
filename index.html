@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samar</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS SPLIDE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="py-8" style="position: absolute; left: 0; top: 0; width: 100%">
+      <div class="flex justify-between items-center container m-auto max-w-350">
+        <img src="./images/logo-2.png" alt="#" />
+
+        <nav class="text__content">
+          <ul class="ml-100 mt-2.5 py-3 flex gap-8 font-semibold">
+            <li class="hover:text-pink-300">
+              <a href="#">Home</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+
+            <li class="hover:text-pink-300">
+              <a href="#">Pages</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+
+            <li class="hover:text-pink-300">
+              <a href="#">Service</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+
+            <li class="hover:text-pink-300">
+              <a href="#">Post Layout</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+
+            <li class="hover:text-pink-300">
+              <a href="#">Blog</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+
+            <li class="hover:text-pink-300">
+              <a href="#">Contact Us</a>
+              <i class="fa-solid fa-chevron-down text-[9px]"></i>
+            </li>
+          </ul>
+        </nav>
+        <button class="bg-gradient-to-r from-[#F5628A] to-[#F7A85A] text-white px-10 py-5 rounded-full font-semibold bg-size-[200%] hover:bg-right">GET A QUOTE</button>
+      </div>
+    </header>
+
+    <!-- nội dung chính của trang -->
+    <main>
+      <!-- CAROUSEL -->
+      <section class="pt-40" style="background-image: url(./images/pic2.png); background-size: cover; background-position: center">
+        <div class="flex justify-between items-center container mx-auto max-w-350">
+          <!-- left -->
+          <div>
+            <p class="font-bold text-2xl text-[#F55F8D]">We are The Best</p>
+            <h2 class="mt-5 font-bold text-7xl">Freelance Product <br />Designer Running</h2>
+            <p class="mt-5 font-medium text-lg text-black/50">We develop the relationships that underpin the next phase in your <br />organisation’s growth.</p>
+            <ul class="mt-5">
+              <li class="carousel__icon">
+                <i class="fa-solid fa-check"></i>
+                <span class="font-medium text-xl text-black/60">Master's degree in designing</span>
+              </li>
+
+              <li class="carousel__icon">
+                <i class="fa-solid fa-check"></i>
+                <span class="font-medium text-xl text-black/60">Outstanding mobile design</span>
+              </li>
+            </ul>
+
+            <button class="bg-gradient-to-r from-[#F5628A] to-[#F7A85A] text-white px-10 py-5 rounded-full font-semibold bg-size-[200%] hover:bg-right">GET STARTED</button>
+          </div>
+
+          <!-- right -->
+          <div>
+            <img src="./images/pic3_1.png" alt="#" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="pt-20" style="background-image: url(./images/bg2.png); background-size: cover; background-position: center">
+        <div class="mb-10 max-w-350 m-auto">
+          <div class="container mx-auto text-center">
+            <p class="font-medium text-2xl text-[#F55F8D]">What We Do Best</p>
+            <h2 class="mt-5 font-bold text-7xl">Our Digital Services</h2>
+          </div>
+
+          <div class="mt-10 grid grid-cols-3">
+            <div class="p-8 bg-white rounded-lg shadow-xl border-2 border-transparent mx-10 text-center bg-white hover-bg-conic-[/images/br.png]">
+              <img src="./images/pic1_3.jpg" alt="#" class="w-52 mx-auto" />
+              <p class="mt-8 font-bold text-2xl">Web Development</p>
+              <p class="mt-5 text-black/60">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+            </div>
+
+            <div class="p-8 bg-white rounded-lg shadow-xl border-2 border-transparent mx-10 text-center">
+              <img src="./images/pic2_2.jpg" alt="#" class="w-52 mx-auto" />
+              <p class="mt-8 font-bold text-2xl">Strategy & Research</p>
+              <p class="mt-5 text-black/60">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+            </div>
+
+            <div class="p-8 bg-white rounded-lg shadow-xl border-2 border-transparent mx-10 text-center">
+              <img src="./images/pic3_2.jpg" alt="#" class="w-52 mx-auto" />
+              <p class="mt-8 font-bold text-2xl">Growth Tracking</p>
+              <p class="mt-5 text-black/60">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section class="pt-20" style="background-image: url(./images/bg15.png); background-size: cover; background-position: center">
+        <div class="flex justify-between items-center container mx-auto max-w-350">
+          <!-- left -->
+          <div>
+            <img src="./images/pic1.jpg" alt="#" class="w-200 h-110 rounded-e-4xl" />
+          </div>
+          <!-- right -->
+          <div class="ml-10">
+            <p class="text-[#F55FA3] font-semibold text-2xl">About Us</p>
+            <h2 class="mt-4 text-7xl font-bold text-gray-900">
+              Build Your <br />
+              Business Website Better
+            </h2>
+            <p class="mt-4 text-black/50 font-medium">
+              Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. <br />
+              Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis <br />
+              neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus <br />
+              risus arcu.
+            </p>
+
+            <ul class="mt-4">
+              <li class="about__icon">
+                <i class="fa-solid fa-check"></i>
+                <span>We support programs that create advancement opportunities for people.</span>
+              </li>
+
+              <li class="about__icon">
+                <i class="fa-solid fa-check"></i>
+                <span>We support programs that create advancement opportunities for people.</span>
+              </li>
+
+              <li class="about__icon">
+                <i class="fa-solid fa-check"></i>
+                <span>We support programs that create advancement opportunities for people.</span>
+              </li>
+
+              <li class="about__icon">
+                <i class="fa-solid fa-check"></i>
+                <span>We support programs that create advancement opportunities for people.</span>
+              </li>
+            </ul>
+
+            <button class="mt-4 bg-gradient-to-r from-[#F5628A] to-[#F7A75C] text-white px-8 py-4 rounded-full font-normal bg-size-[200%] hover:bg-right">LEARN MORE</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATIC -->
+      <section class="mt-20 pt-15" style="background-image: url(./images/bg14.png); background-size: cover; background-position: center">
+        <div class="flex justify-between items-center container mx-auto max-w-250 text-center">
+          <div class="static__item w-auto">
+            <i class="fa-solid fa-face-smile"></i>
+            <p class="text-6xl font-bold text-[#F55F8D]"><span class="counter">18</span> Ml</p>
+            <p class="mt-2 text-lg">Satisfied Clients</p>
+          </div>
+
+          <div class="static__item w-auto">
+            <i class="fa-solid fa-chart-line"></i>
+            <p class="text-6xl font-bold text-[#F55F8D]"><span class="counter">20</span> Ml</p>
+            <p class="mt-2 text-lg">Project Completed</p>
+          </div>
+
+          <div class="static__item w-auto">
+            <i class="fa-solid fa-rocket"></i>
+            <p class="text-6xl font-bold text-[#F55F8D]"><span class="counter">30</span> Ml</p>
+            <p class="mt-2 text-lg">Project Lunched</p>
+          </div>
+
+          <div class="static__item w-auto">
+            <i class="fa-solid fa-ethernet"></i>
+            <p class="text-6xl font-bold text-[#F55F8D]"><span class="counter">50</span></p>
+            <p class="mt-2 text-lg">Years Completed</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Our Features -->
+    <section class="pt-20" style="background-image: url(./images/bg2.png); background-size: cover; background-position: center">
+      <div class="flex justify-between items-center container mx-auto max-w-350 gap-20">
+        <!-- left -->
+        <div class="w-[50%]">
+          <div>
+            <p class="text-[#F55FA3] font-semibold text-2xl">Our Features</p>
+            <h2 class="mt-4 text-7xl font-bold text-gray-900">
+              Behind The Story <br />
+              Of Samar Agency
+            </h2>
+          </div>
+
+          <div class="mt-10">
+            <div
+              class="flex justify-between items-center container mr-10 mb-10 bg-white rounded-lg shadow-xl border-2 border-transparent w-150 h-30 hover:bg-gradient-to-r from-[#F5628A] to-[#F7A85A] hover:text-white"
+            >
+              <i class="fa-regular fa-lightbulb text-7xl pl-3 mr-3 text-[#F55FA3]"></i>
+              <div>
+                <h3 class="text-2xl font-bold">Idea & Analysis Gathering</h3>
+                <p class="text-lg opacity-60 font-awesome">Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between items-center container ml-10 mb-10 bg-white rounded-lg shadow-xl border-2 border-transparent w-150 h-30 hover:bg-gradient-to-r from-[#F5628A] to-[#F7A85A] hover:text-white"
+            >
+              <i class="fa-solid fa-desktop text-7xl pl-3 mr-3 text-[#F55FA3]"></i>
+              <div>
+                <h3 class="text-2xl font-bold">Design & Developing</h3>
+                <p class="text-lg opacity-60 font-awesome">Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between items-center container mr-10 mb-10 bg-white rounded-lg shadow-xl border-2 border-transparent w-150 h-30 hover:bg-gradient-to-r from-[#F5628A] to-[#F7A85A] hover:text-white"
+            >
+              <i class="fa-regular fa-font-awesome text-7xl pl-3 mr-3 text-[#F55FA3]"></i>
+              <div>
+                <h3 class="text-2xl font-bold">Testing & Lunching</h3>
+                <p class="text-lg opacity-60 font-awesome">Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="w-[50%]">
+          <img src="./images/pic3.png" alt="#" class="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio mt-30">
+      <div class="mx-auto max-w-[1400px] text-center">
+        <div class="text-center">
+          <p class="text-[#F55FA3] font-semibold text-3xl">Portfolio</p>
+          <h2 class="mt-4 text-8xl font-bold text-gray-900">Our Latest Work</h2>
+        </div>
+
+        <div class="parent mt-10">
+          <div class="div1 overslay">
+            <img src="./images/pic1_2.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+          <div class="div2 overslay">
+            <img src="./images/pic2_1.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+          <div class="div3 overslay">
+            <img src="./images/pic3_1.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+          <div class="div4 overslay">
+            <img src="./images/pic4.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+          <div class="div5 overslay">
+            <img src="./images/pic6.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+          <div class="div6 overslay">
+            <img src="./images/pic5.jpg" alt="#" />
+            <div class="parent_overslay">
+              <div class="overslay_icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="overslay_text">
+                <h2>Software Landing</h2>
+                <p>By Jhone Doe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Blog -->
+    <section class="pt-20" style="background-image: url(./images/bg16.png); background-size: cover; background-position: center">
+      <div class="mx-auto max-w-[1400px] text-center">
+        <div class="container mx-auto text-center">
+          <p class="text-[#F55FA3] font-semibold text-2xl">Our Blog</p>
+          <h2 class="mt-5 text-7xl font-bold">Latest News & Blog</h2>
+        </div>
+
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__item">
+                  <div class="splide__header">
+                    <img src="./images/pic1_1.jpg" alt="#" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+
+                  <div class="splide__boby">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus earum incidunt reiciendis ipsum. Dolore!</p>
+                  </div>
+
+                  <div class="splide__footer">
+                    <p>
+                      <i class="fa-regular fa-circle-user"></i>
+                      By <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="splide__item">
+                  <div class="splide__header">
+                    <img src="./images/pic1_1.jpg" alt="#" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+
+                  <div class="splide__boby">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus earum incidunt reiciendis ipsum. Dolore!</p>
+                  </div>
+
+                  <div class="splide__footer">
+                    <p>
+                      <i class="fa-regular fa-circle-user"></i>
+                      By <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="splide__item">
+                  <div class="splide__header">
+                    <img src="./images/pic1_1.jpg" alt="#" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+
+                  <div class="splide__boby">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus earum incidunt reiciendis ipsum. Dolore!</p>
+                  </div>
+
+                  <div class="splide__footer">
+                    <p>
+                      <i class="fa-regular fa-circle-user"></i>
+                      By <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="fa-regular fa-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__text">
+            <h3>Subscribe To Our Newsletter</h3>
+          </div>
+          <div class="footer__form">
+            <form class="form__content">
+              <input type="text" placeholder="Your Email Address" />
+              <button>
+                <i class="fa-solid fa-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer_bottom">
+          <div class="footer_bottom_item">
+            <a href="#">
+              <img src="./images/logo-white.png" alt="" />
+            </a>
+            <ul>
+              <li class="footer_bottom_item_icon">
+                <a class="samar_bottom">
+                  <i class="fa-solid fa-phone iconfooter"></i>
+                  1800-123-4567 <br />
+                  +91 987-654-3210
+                </a>
+                <a class="samar_bottom">
+                  <i class="fa-solid fa-envelope iconfooter"></i>
+
+                  info@example.com <br />
+                  services@gmail.com
+                </a>
+                <a class="samar_bottom">
+                  <i class="fa-solid fa-location-dot iconfooter"></i>
+                  Demo Address #8901 Marmora <br />
+                  Road City
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_bottom_item">
+            <h3>Our links</h3>
+            <ul>
+              <li class="footer_bottom_item_icon">
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> home</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> About Us</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Services</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Team</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_bottom_item">
+            <h3>Our Services</h3>
+            <ul>
+              <li class="footer_bottom_item_icon">
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Strategy & Research</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Web Development</a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> Web Solution</a>
+                <a class="hover_acti" href="#"
+                  ><i class="fa-solid fa-angle-right"></i>
+                  Digital Marketing
+                </a>
+                <a class="hover_acti" href="#"><i class="fa-solid fa-angle-right"></i> App Design</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_bottom_item">
+            <h3>Other links</h3>
+            <ul>
+              <li class="footer_bottom_item_icon">
+                <a class="hover_acti" href=""><i class="fa-solid fa-angle-right"></i> FAQ</a>
+                <a class="hover_acti" href=""><i class="fa-solid fa-angle-right"></i> Portfolio</a>
+                <a class="hover_acti" href=""><i class="fa-solid fa-angle-right"></i> Privacy Policy</a>
+                <a class="hover_acti" href=""><i class="fa-solid fa-angle-right"></i> Terms & Conditions</a>
+                <a class="hover_acti" href=""><i class="fa-solid fa-angle-right"></i> Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <p>Copyright © 2021 <span>DexignZone</span> . All rights reserved.</p>
+          <div class="footer__social">
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-------------BUTTON SCROLL TO TOP---------------->
+    <a class="btn-scroll-top" href="#top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+  </body>
+
+  <!-- SPLIDE -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+  <!-- SPLIDE JS -->
+  <script>
+    new Splide(".splide", {
+      type: "loop", // Kiểu vòng lặp
+      focus: "center", // Tập trung vào slide ở giữa
+      perPage: 3, // Số lượng slide hiển thị trên mỗi trang
+      arrows: false, // Ẩn/hiện mũi tên điều hướng
+      autoplay: true, // Tự động phát
+      interval: 2000, // Thời gian giữa các slide (ms)
+    }).mount();
+  </script>
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- WAYPOINTS -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gі0Dz4Rq9jXcySgcP¡K+5f01Cqw+ZoKLLKг9VMXuCsw3RjWiv8ZpIOa0hx079nр7Ec8DDWALM0ЬDOaQ=="
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- COUNT-UP JS -->
+  <script src="./lib/count-up/jquery.countup.min.js"></script>
+
+  <script>
+    $(".counter").countUp();
+  </script>
+</html>
